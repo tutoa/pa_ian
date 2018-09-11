@@ -1,0 +1,122 @@
+/*=============================
+        Layout
+==============================*/
+
+body {
+  color: white;
+  margin: 0;
+}
+
+#sidebar {
+  background-color: #2b4353;
+  width: 25%;
+  height: 100vh;
+  color: #e8630a;
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 16px;
+  float: left;
+  height: 100vh;
+}
+
+#sidebarDetails {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#mainArea {
+  width: 75%;
+  background-image: url("cartography-bg.png");
+  /* background-color: lightcoral; */
+  float: left;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*=============================
+        Sidebar Contents
+==============================*/
+
+#profilePic {
+  width: 100%;
+}
+
+h1#name {
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  color: #e8630a;
+}
+
+h2 {
+  color: #e8630a;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  font-size: 18px;
+}
+
+.detail {
+  color: #f7f7f7;
+  font-family: "PT Mono", monospace;
+  font-size: 15px;
+}
+
+ul {
+  margin-left: 80px;
+}
+
+/*=============================
+        MainArea Contents
+==============================*/
+.mainAreaContent {
+}
+.pouTitle {
+  font-size: 70px;
+  width: 100%;
+  text-align: center;
+  margin: 40px 20px;
+}
+
+.pouTitle h1 {
+  margin: 20px;
+  font-family: "Black Ops One", cursive;
+  color: #e8630a;
+  font-weight: 400;
+  background-color: #2b4353;
+}
+
+/*=============================
+        Unused Code
+==============================*/
+/*
+.card {
+  width: 400px;
+  height: 200px;
+  background-color: hotpink;
+  margin: 30px;
+}
+
+#card1 {
+  background-image: url("mikyah01.jpg");
+  background-size: cover;
+}
+*/
+
+/* this is how you write a comment in CSS */
+
+/* these are my CSS notes:
+CSS stands for Cascading Stylesheet
+*/
+
+/*
+GOOGLE FONTS:
+font-family: 'PT Mono', monospace;
+font-family: 'Roboto Mono', monospace;
+
+FONTS FOR: KIA TU, KIA ORA, KIA MAORI
+font-family: 'Audiowide', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Bungee Inline', cursive;
+*/
