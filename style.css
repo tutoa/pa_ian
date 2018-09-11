@@ -25,7 +25,7 @@ body {
 
 #mainArea {
   width: 75%;
-  background-image: url("cartography-bg.png");
+  background-image: url("./images/cartography-bg.png");
   /* background-color: lightcoral; */
   float: left;
   height: 100vh;
